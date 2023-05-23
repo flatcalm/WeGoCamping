@@ -1,4 +1,4 @@
-package com.caping.wego;
+package com.camping.wego;
 
 import java.text.DateFormat;
 import java.util.Date;
