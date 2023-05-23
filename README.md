@@ -1,1 +1,2 @@
-# WeGoCamping
+# We Go Camping
+Camping Site
