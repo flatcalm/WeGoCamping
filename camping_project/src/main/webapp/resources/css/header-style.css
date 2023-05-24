@@ -30,6 +30,7 @@ header{
     box-sizing: border-box;
     position: relative;
     position: fixed;
+    top: 0;
     
 }
 header .section{

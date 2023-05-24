@@ -1,0 +1,49 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css");
+body{
+    position: relative;
+}
+
+.board{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.board .board-selector {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.board .board-selector a{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid hwb(0 0% 100% / 0.4);
+}
+.board table{
+    width: 100%;    
+    
+}
+.board table th{
+    width: 10%;
+}
+.board table .title {
+    width: 60%;
+}
+.board table tr {
+    border: 1px solid #000;
+    height: 30px;
+}
+
+
+footer{
+    width: 1100px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin: 0 auto;
+}
+footer img {
+    width: 80px;
+}

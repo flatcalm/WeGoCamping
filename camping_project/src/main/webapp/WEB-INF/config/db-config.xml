@@ -20,14 +20,14 @@
 	</bean>
 	
 	<!-- 히카리 커넥션 풀 빈 등록 -->
-	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-		<!-- HikariConfig 클래스 내부의 필드값을 초기화하기 위해 setter 메서드 호출 -->
+	<!-- <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		HikariConfig 클래스 내부의 필드값을 초기화하기 위해 setter 메서드 호출
 		<property name="driverClassName" value="${mydb.driverClassName}" />
 		<property name="jdbcUrl" value="${mydb.url}" />
 		<property name="username" value="${mydb.username}" />
 		<property name="password" value="${mydb.password}" />
 	</bean>
-	
+	 -->
 	<!-- 히카리 데이터소스 빈 등록 (커넥션 풀 정보를 담는 객체 등록) -->
 	<bean id="ds" class="com.zaxxer.hikari.HikariDataSource">
 		<constructor-arg ref="hikariConfig" />
