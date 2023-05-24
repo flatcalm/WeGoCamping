@@ -11,12 +11,14 @@ tmp/
 *~.nib
 Servers/
 local.properties
+.settings
 .settings/
 .loadpath
 .recommenders
 .classpath
 .project
 .springBeans
+*/target/*
 
 # External tool builders
 .externalToolBuilders/
