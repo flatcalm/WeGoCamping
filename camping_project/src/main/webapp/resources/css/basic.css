@@ -76,12 +76,13 @@ select {
 	top: 180px;
 }
 
-button{
-margin-left: 500px;
-text-align: center;
 
-
+ .button {
+	text-align: center;
+	color:black;
 }
+
+
 
 
 
