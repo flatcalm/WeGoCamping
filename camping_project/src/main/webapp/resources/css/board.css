@@ -1,16 +1,18 @@
 @import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css");
 body{
-    position: relative;
+    position: relative;   
+     height: 700px;
 }
 
+/* 게시판 영역 */
 .board{
     width: 1100px;
     margin: 0 auto;
     margin-top: 200px;
     text-align: center;
 }
-.board .board-selector {
-    margin-bottom: 10px;
+.board .board-selector { /* 게시판 선택 */
+    margin-bottom: 70px;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -19,31 +21,63 @@ body{
     width: 250px;
     height: 50px;
     line-height: 50px;
-    border: 1px solid hwb(0 0% 100% / 0.4);
+    border: 1px solid hwb(0 0% 100% / 0.01);
+    margin: 0 10px;
 }
 .board table{
-    width: 100%;    
+    width: 100%;  
+    border-top: 1px solid #777;  
+    border-bottom: 1px solid #777;
+    
     
 }
 .board table th{
     width: 10%;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .board table .title {
     width: 60%;
+    
 }
 .board table tr {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 30px;
 }
-
+.board table tr td:nth-child(2){ /* 제목 */
+    text-align: left;
+    text-indent: 120px;
+}
+.board .page{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.board .page div{
+    margin: 3px;
+}
+/* 게시판 영역끝 */
 
 footer{
-    width: 1100px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    display: flex;
-    margin: 0 auto;
+    background-color: rgb(252, 242, 227);
+    
 }
-footer img {
+footer .section{
+    width: 1100px;
+    font-size: 10px;
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    padding: 15px;
+    line-height: 15px;
+
+}
+footer .section img {
+    margin-right: 100px;
     width: 80px;
 }
